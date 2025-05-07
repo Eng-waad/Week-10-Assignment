@@ -29,7 +29,7 @@
 5. Build the frontend and deploy files to this bucket.
 
 
-#part3: S3 Bucket for Media Uploads:
+# part3: S3 Bucket for Media Uploads:
 
 1. Create S3 bucket named waad-blogapp-media.
 2. Disable Block all public access.
