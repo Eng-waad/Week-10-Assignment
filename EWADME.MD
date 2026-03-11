@@ -1,4 +1,4 @@
-# SDA2007-Waad Abadil Saed Alharthi
+# SDA2007-Waad Alharthi
 # Week-10 Assignment
 
 # Part 1: MongoDB Atlas Configuration (Optional):
@@ -168,6 +168,7 @@ npm install -g pnpm@latest-10
 pnpm install
 pnpm run build
 aws s3 sync dist/ s3://waad-blogapp-frontend
+
 
 
 
