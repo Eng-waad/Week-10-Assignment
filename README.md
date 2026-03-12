@@ -122,7 +122,6 @@ cat > .env << EOF
 PORT=5000
 HOST=0.0.0.0
 MODE=production
-
 JWT_SECRET=$(openssl rand -hex 32)
 JWT_EXPIRE=30min
 JWT_REFRESH=$(openssl rand -hex 32)
