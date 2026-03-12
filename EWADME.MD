@@ -123,8 +123,6 @@ PORT=5000
 HOST=0.0.0.0
 MODE=production
 
-MONGODB=mongodb+srv://test:qazqwe123@mongodb.txkjsso.mongodb.net/blog-app
-
 JWT_SECRET=$(openssl rand -hex 32)
 JWT_EXPIRE=30min
 JWT_REFRESH=$(openssl rand -hex 32)
@@ -168,6 +166,7 @@ npm install -g pnpm@latest-10
 pnpm install
 pnpm run build
 aws s3 sync dist/ s3://waad-blogapp-frontend
+
 
 
 
